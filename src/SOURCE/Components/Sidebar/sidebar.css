@@ -1,0 +1,40 @@
+.sidebar {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+.sidebar__block {
+  gap: 0.5rem;
+}
+.sidebar__title {
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.sidebar__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidebar__btn {
+  justify-content: start;
+  background: transparent;
+  padding: 0;
+  font-weight: 500;
+}
+.sidebar__btn:hover {
+  background: transparent;
+  color: #2966ad;
+}
+.sidebar__item {
+  padding: 0.75rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+.sidebar__item:hover {
+  background-color: #d4d4d9;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

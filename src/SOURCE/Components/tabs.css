@@ -1,0 +1,38 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.tab {
+  color: #0C151C;
+  opacity: 50%;
+  position: relative;
+  font-weight: 500;
+}
+.tab:after {
+  content: "";
+  width: 0;
+  height: 0.25rem;
+  background-color: #2966ad;
+  border-radius: 1000rem;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: inherit;
+}
+.tab_active {
+  opacity: 100%;
+}
+.tab_active:after {
+  width: 50%;
+}
+.tab:hover {
+  opacity: 75%;
+}
+.tab:hover:after {
+  width: 50%;
+}
+
+/*# sourceMappingURL=tabs.css.map */

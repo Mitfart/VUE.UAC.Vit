@@ -1,0 +1,47 @@
+@use '../vars';
+
+
+.sidebar {
+  width: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  flex-shrink: 0;
+
+  &__block {
+    gap: .5rem;
+  }
+  &__title {
+    padding: .25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  &__btn {
+    justify-content: start;
+    background: transparent;
+    padding: 0;
+    font-weight: 500;
+
+    &:hover {
+      background: transparent;
+      color: vars.$c-primal;
+    }
+  }
+
+  &__item {
+    padding: .75rem;
+    background-color: transparent;
+    border-radius: .5rem;
+
+    &:hover {
+      background-color: vars.$c-base-c;
+    }
+  }
+}

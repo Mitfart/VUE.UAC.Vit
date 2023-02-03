@@ -1,0 +1,13 @@
+.theme {
+  display: flex;
+  flex-direction: column;
+}
+.theme__title {
+  font-weight: 500;
+}
+.theme__theme-data {
+  opacity: 50%;
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=theme.css.map */

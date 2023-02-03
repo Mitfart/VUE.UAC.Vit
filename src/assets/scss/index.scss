@@ -1,0 +1,11 @@
+@import "./_var.scss";
+@import "./_reset.scss";
+
+
+.rect_1-1 {
+  &:before {
+    content: '';
+    float: right;
+    padding-bottom: 100%;
+  }
+}

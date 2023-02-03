@@ -1,0 +1,11 @@
+.contact {
+  padding: 0.25rem;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  opacity: 50%;
+}
+
+/*# sourceMappingURL=contacts.css.map */

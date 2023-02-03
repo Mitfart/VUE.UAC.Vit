@@ -1,0 +1,14 @@
+.contact {
+  &s {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+
+    opacity: 50%;
+  }
+
+  padding: .25rem;
+
+  &__name  { }
+  &__email { }
+}

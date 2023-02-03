@@ -1,0 +1,18 @@
+@use '../vars';
+
+
+.theme {
+  &s {}
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-weight: 500;
+  }
+  &__theme-data{
+    opacity: 50%;
+    font-size: .75rem;
+  }
+  &__post-count{}
+  &__participant-count{}
+}

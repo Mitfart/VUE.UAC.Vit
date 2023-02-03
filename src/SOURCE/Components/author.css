@@ -1,0 +1,13 @@
+.author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.author__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/*# sourceMappingURL=author.css.map */

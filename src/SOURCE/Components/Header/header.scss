@@ -1,0 +1,45 @@
+@use '../vars';
+
+
+.header {
+  width: 100%;
+
+  background-color: vars.$c-base;
+  border-bottom: .125rem solid vars.$c-base-c;
+
+  padding: .5rem 0;
+
+  &__container {
+    align-items: center;
+    justify-content: space-between;
+
+    & > * {
+      flex-grow: 1;
+    }
+  }
+  &__logo,
+  &__user-container {
+    font-size: 1.75rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & > .icon {
+      border-radius: 100%;
+      background-color: vars.$c-base;
+      padding: .125rem;
+      box-sizing: content-box;
+
+      &:hover {
+        color: vars.$c-primal;
+        background-color: vars.$c-base-c;
+      }
+    }
+  }
+
+  &__user-container {
+    justify-content: end;
+  }
+}
+

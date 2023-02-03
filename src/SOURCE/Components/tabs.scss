@@ -1,0 +1,42 @@
+@use './vars';
+
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.tab {
+  color: vars.$c-second;
+  opacity: 50%;
+  position: relative;
+  font-weight: 500;
+
+  &:after {
+    content: '';
+    width: 0;
+    height: .25rem;
+    background-color: vars.$c-primal;
+    border-radius: 1000rem;
+
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    transition: inherit;
+  }
+  &_active {
+    opacity: 100%;
+    &:after {
+      width: 50%;
+    }
+  }
+
+  &:hover {
+    opacity: 75%;
+    &:after {
+      width: 50%;
+    }
+  }
+}

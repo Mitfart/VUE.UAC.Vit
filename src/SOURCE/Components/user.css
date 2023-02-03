@@ -1,0 +1,30 @@
+.user {
+  display: flex;
+  gap: 0.5rem;
+}
+.user__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.user__name {
+  position: relative;
+  opacity: 50%;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.user__additional-info {
+  opacity: 50%;
+  font-size: 0.75rem;
+}
+.user__avatar-container {
+  width: 2.5rem;
+  font-size: 0;
+}
+.user:hover .user__name {
+  opacity: 75%;
+}
+
+/*# sourceMappingURL=user.css.map */

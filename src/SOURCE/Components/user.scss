@@ -1,0 +1,37 @@
+@use './vars';
+
+
+.user {
+  display: flex;
+  gap: .5rem;
+
+  &__info {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+  &__name {
+    position: relative;
+    opacity: 50%;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  &__additional-info {
+    opacity: 50%;
+    font-size: .75rem;
+  }
+  &__avatar-container {
+    width: 2.5rem;
+    font-size: 0;
+  }
+
+
+  &:hover {
+    .user__name {
+      opacity: 75%;
+    }
+  }
+}
